@@ -14,41 +14,39 @@ Everything should be then forwarded to a simulation, that will recreate the envi
 
 The main motivation for this project comes from a past hackathon I have done. Due the the limited amount of time we weren't able to begin such a big project. But since I have been thinking of it for a lot of time, and I think such course can be the perfect moment to take this challenge.
 
-## Goal 
+## Goal
 
-My goal would be to be able to understand how does the process of computer vision works, from the beginning to the end, and during the process, being able to develop, test and see some results of the task. The idea would be to make a program that takes any arbitrary type of intersection, and is being able to count how many cars, pedestrian and bycicles are there. If I can make that, the second goal would be to analyze the video in order to gain more data about speed and other metadata of the objects in the scene.
-
+My goal would be to be able to understand how does the process of computer vision works, from the beginning to the end, and during the process, being able to develop, test and see some results of the task. The idea would be to make a program that takes any arbitrary type of intersection, and is being able to count how many cars, pedestrian and bicycles are there. If I can make that, the second goal would be to analyze the video in order to gain more data about speed and other metadata of the objects in the scene.
 
 ## Data needed
 
-The data needed are going to be centered around the video dataset of an intersection. Also some videos/images of cars, trucks, busses, bycicles and pedestrians are needed to train the network. 
+The data needed are going to be centered around the video dataset of an intersection. Also some videos/images of cars, trucks, busses, bicycles and pedestrians are needed to train the network.
 Also some data about the intersection is needed in order to further develop the neural network to understand the geometry of the environment (this would be a step in the future).
 
 Some of the datasets I found:
 
-- https://www.citycam-cmu.com/dataset -> CityCam 60,000 frames with rich information, leading to about 900,000 annotated objects.
-- https://detrac-db.rit.albany.edu/download -> UA-DETRAC is a challenging real-world multi-object detection and multi-object tracking benchmark. The dataset consists of 10 hours of videos captured with a Cannon EOS 550D camera at 24 different locations at Beijing and Tianjin in China.
-- https://www.uni-ulm.de/in/mrm/forschung/datensaetze.html -> Ko-PER intersection dataset.
-- https://open.ottawa.ca/documents/traffic-services-api-webcam-images-traffic-flow/explore -> Ottawa webcam traffic realtime
-- https://viratdata.org/#getting-data -> surveillance camerea for more training
-- https://data.vision.ee.ethz.ch/cvl/webvision/dataset2018.html -> WEBVISION
-- https://databank.illinois.edu/datasets/IDB-3671567 -> STREET dataset with over four millions still images (github source https://github.com/corey-snyder/STREETS)
-- https://www.jpjodoin.com/urbantracker/dataset.html -> Urban tracker
-- https://www.kaggle.com/datasets/aalborguniversity/aau-rainsnow -> Bad weather conditions records
+- <https://www.citycam-cmu.com/dataset> -> CityCam 60,000 frames with rich information, leading to about 900,000 annotated objects.
+- <https://detrac-db.rit.albany.edu/download> -> UA-DETRAC is a challenging real-world multi-object detection and multi-object tracking benchmark. The dataset consists of 10 hours of videos captured with a Cannon EOS 550D camera at 24 different locations at Beijing and Tianjin in China.
+- <https://www.uni-ulm.de/in/mrm/forschung/datensaetze.html> -> Ko-PER intersection dataset.
+- <https://open.ottawa.ca/documents/traffic-services-api-webcam-images-traffic-flow/explore> -> Ottawa webcam traffic realtime
+- <https://viratdata.org/#getting-data> -> surveillance camerea for more training
+- <https://data.vision.ee.ethz.ch/cvl/webvision/dataset2018.html> -> WEBVISION
+- <https://databank.illinois.edu/datasets/IDB-3671567> -> STREET dataset with over four millions still images (github source <https://github.com/corey-snyder/STREETS>)
+- <https://www.jpjodoin.com/urbantracker/dataset.html> -> Urban tracker
+- <https://www.kaggle.com/datasets/aalborguniversity/aau-rainsnow> -> Bad weather conditions records
 
 others:
 
 - <http://civicapps.org/datasets/its-cameras-intelligent-transportation-system>
 - <https://motchallenge.net> -> car prespective video dataset
-- <https://archive.org/details/0002201705192> -> car prespective video 4k (from https://github.com/matterport/Mask_RCNN -> to count cars, maybe we should do some comparison with YOLO)
+- <https://archive.org/details/0002201705192> -> car prespective video 4k (from <https://github.com/matterport/Mask_RCNN> -> to count cars, maybe we should do some comparison with YOLO)
 - <https://opendata.dc.gov/datasets/2bb8375e31a94067a17911ea70f917ef_11/explore?location=38.891292%2C-77.031333%2C14.89> maybe street cameras?
-- https://www.kaggle.com/datasets/aryashah2k/highway-traffic-videos-dataset -> highway dataset
-- https://gram.web.uah.es/data/datasets/trancos/index.html
-- http://www.cvlibs.net/datasets/kitti/eval_object.php
-- https://github.com/VisualComputingInstitute/vkitti3D-dataset
+- <https://www.kaggle.com/datasets/aryashah2k/highway-traffic-videos-dataset> -> highway dataset
+- <https://gram.web.uah.es/data/datasets/trancos/index.html>
+- <http://www.cvlibs.net/datasets/kitti/eval_object.php>
+- <https://github.com/VisualComputingInstitute/vkitti3D-dataset>
 - find out about the cameras at junctions in Osnabrueck
-- https://www.cityscapes-dataset.com
-
+- <https://www.cityscapes-dataset.com>
 
 ## Methods and software
 
@@ -113,11 +111,11 @@ Iterate in order to get better results?
 
 ### Week 6 - 8
 
-Implement the distance analysis
+Video analysis comparison
 
 ### Week 8 - 10
 
-Video analysis comparison
+Implement the distance analysis
 
 ### Week 10 - Deadline
 
