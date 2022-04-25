@@ -37,6 +37,7 @@ Some of the datasets I found:
 
 others:
 
+- <https://github.com/0AnonymousSite0/Data-and-Codes-for-Integrating-Computer-Vision-and-Traffic-Modelling>
 - <http://civicapps.org/datasets/its-cameras-intelligent-transportation-system>
 - <https://motchallenge.net> -> car prespective video dataset
 - <https://archive.org/details/0002201705192> -> car prespective video 4k (from <https://github.com/matterport/Mask_RCNN> -> to count cars, maybe we should do some comparison with YOLO)
