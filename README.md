@@ -56,6 +56,8 @@ The software I am most likely to use is YOLO, in order to understand where the c
 - https://pjreddie.com/darknet/yolo/
 - https://github.com/matterport/Mask_RCNN
 - probably yolo V3
+- SUMO for simulation of the city
+- Tensorflow implementation ?
 
 The language would be python, with libraries such pytorch and cv.
 
@@ -68,7 +70,8 @@ I'm not sure how I would link and bring everything together, but I will figure i
 #### literature to read: 
 - ["A Novel Camera Network Dataset for Traffic Flow."](https://www.osti.gov/servlets/purl/1668921) READ
 - ["A Survey of Vision-Based Traffic Monitoring of Road Intersections"](https://ieeexplore.ieee.org/document/7458203) READ
-- ["Integrating computer vision and traffic modeling for near-real-time signal timing optimization ](https://www.sciencedirect.com/science/article/abs/pii/S2210670721000676?via%3Dihub)
+- ["Integrating computer vision and traffic modeling for near-real-time signal timing optimization ](https://www.sciencedirect.com/science/article/abs/pii/S2210670721000676?via%3Dihub) TO READ
+- ["The Ko-PER Intersection Laserscanner and Video Dataset"](https://www.uni-ulm.de/fileadmin/website_uni_ulm/iui.inst.110/Bilder/Forschung/Datensaetze/20141010_DatasetDocumentation.pdf) TO SKIM-READ
 
 #### Tasks
 
@@ -79,11 +82,11 @@ I'm not sure how I would link and bring everything together, but I will figure i
 
 ### Step - 02
 
-- Define distance and position of the objects in the world
+- Detect velocity by analyzing not only single images but stream of images
 
 ### Step - 03
 
-- Detect velocity by analyzing not only single images but stream of images
+- Define distance and position of the objects in the world
 
 ### Step - 04
 
