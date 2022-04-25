@@ -37,10 +37,11 @@ Some of the datasets I found:
 - https://www.kaggle.com/datasets/aalborguniversity/aau-rainsnow -> Bad weather conditions records
 
 others:
-- http://civicapps.org/datasets/its-cameras-intelligent-transportation-system
-- https://motchallenge.net -> car prespective video dataset
-- https://archive.org/details/0002201705192 -> car prespective video 4k (from https://github.com/matterport/Mask_RCNN -> to count cars, maybe we should do some comparison with YOLO)
-- https://opendata.dc.gov/datasets/2bb8375e31a94067a17911ea70f917ef_11/explore?location=38.891292%2C-77.031333%2C14.89 maybe street cameras?
+
+- <http://civicapps.org/datasets/its-cameras-intelligent-transportation-system>
+- <https://motchallenge.net> -> car prespective video dataset
+- <https://archive.org/details/0002201705192> -> car prespective video 4k (from https://github.com/matterport/Mask_RCNN -> to count cars, maybe we should do some comparison with YOLO)
+- <https://opendata.dc.gov/datasets/2bb8375e31a94067a17911ea70f917ef_11/explore?location=38.891292%2C-77.031333%2C14.89> maybe street cameras?
 - https://www.kaggle.com/datasets/aryashah2k/highway-traffic-videos-dataset -> highway dataset
 - https://gram.web.uah.es/data/datasets/trancos/index.html
 - http://www.cvlibs.net/datasets/kitti/eval_object.php
@@ -53,8 +54,8 @@ others:
 
 The software I am most likely to use is YOLO, in order to understand where the cars are. I might also try to use unity in order to recreate the digital twin of the road and the position of the cars.
 
-- https://pjreddie.com/darknet/yolo/
-- https://github.com/matterport/Mask_RCNN
+- <https://pjreddie.com/darknet/yolo/>
+- <https://github.com/matterport/Mask_RCNN>
 - probably yolo V3
 - SUMO for simulation of the city
 - Tensorflow implementation ?
@@ -67,13 +68,18 @@ I'm not sure how I would link and bring everything together, but I will figure i
 
 ### Step - 01
 
-#### literature to read: 
+####  literature to read
+
 - ["A Novel Camera Network Dataset for Traffic Flow."](https://www.osti.gov/servlets/purl/1668921) READ
 - ["A Survey of Vision-Based Traffic Monitoring of Road Intersections"](https://ieeexplore.ieee.org/document/7458203) READ
-- ["Integrating computer vision and traffic modeling for near-real-time signal timing optimization ](https://www.sciencedirect.com/science/article/abs/pii/S2210670721000676?via%3Dihub) TO READ
-- ["The Ko-PER Intersection Laserscanner and Video Dataset"](https://www.uni-ulm.de/fileadmin/website_uni_ulm/iui.inst.110/Bilder/Forschung/Datensaetze/20141010_DatasetDocumentation.pdf) TO SKIM-READ
+- ["Integrating computer vision and traffic modeling for near-real-time signal timing optimization"](https://www.sciencedirect.com/science/article/abs/pii/S2210670721000676?via%3Dihub) TO READ
+- ["The Ko-PER Intersection Laser-scanner and Video Dataset"](https://www.uni-ulm.de/fileadmin/website_uni_ulm/iui.inst.110/Bilder/Forschung/Datensaetze/20141010_DatasetDocumentation.pdf) TO SKIM-READ
 
 #### Tasks
+
+- TRY YOLO ON SOME DATASET
+- Define which datasets to use or not
+- Define a particular intersection and analyze the overall environment
 
 - Detect cars in an image
 - Detect people
